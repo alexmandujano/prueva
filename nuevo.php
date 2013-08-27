@@ -18,4 +18,5 @@ $fila = $resultado->fetch_assoc();
 
 printf("id = %s (%s)\n", $fila['id'], gettype($fila['id']));
 printf("etiqueta = %s (%s)\n", $fila['etiqueta'], gettype($fila['etiqueta']));
+echo "estoymedioloco";
 ?>
